@@ -5,7 +5,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/sourabh-setia/Port-folio",
+  "homepage": "https://github.com/sourabh-setia/Portfolio",
 
   "scripts": {
     "dev": "vite",
