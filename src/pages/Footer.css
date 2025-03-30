@@ -1,0 +1,55 @@
+.footer {
+    background: linear-gradient(135deg, #1a1a1a, #333); /* Gradient Background */
+    color: #ffffff;
+    padding: 40px 0;
+    font-size: 15px;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .footer-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #0dcaf0; /* Bootstrap Primary Color */
+  }
+  
+  .footer .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+  }
+  
+  .footer .social-icon {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .footer .social-icon:hover {
+    transform: translateY(-3px);
+    background: rgba(255, 255, 255, 0.2);
+    color: #0dcaf0; /* Bootstrap Primary Color */
+  }
+  
+  .footer-text {
+    font-size: 14px;
+    margin-top: 15px;
+    opacity: 0.8;
+  }
+  
+  .animated-heart {
+    animation: beat 1.5s infinite alternate;
+  }
+  
+  @keyframes beat {
+    0% { transform: scale(1); color: red; }
+    100% { transform: scale(1.2); color: #ff4d4d; }
+  }

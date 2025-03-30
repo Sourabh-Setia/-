@@ -1,0 +1,26 @@
+.hero-section {
+    background-color: #f8f9fa;
+    padding: 50px;
+    border-radius: 15px;
+  }
+  
+  .profile-img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border: 5px solid #007bff;
+  }
+  
+  .tech-card {
+    background: #fff;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out, background 0.3s;
+  }
+  
+  .tech-card:hover {
+    transform: translateY(-5px);
+    background: #007bff;
+    color: white;
+  }
