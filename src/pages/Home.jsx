@@ -73,9 +73,9 @@ export default function Home() {
           I have worked on **RESTful APIs, authentication systems, and scalable server-side applications**.  
         </p>
         <ul className="list-group text-start mx-auto" style={{ maxWidth: "600px" }}>
-          <li className="list-group-item">✔ **Backend** – Built using Node.js, Express, and MongoDB</li>
-          <li className="list-group-item">✔ **Authentication System** – Secure login with JWT authentication</li>
-          <li className="list-group-item">✔ **API Integrations** – Connected third-party services with RESTful APIs</li>
+          <li className="list-group-item">✔ Backend – Built using Node.js, Express, and MongoDB</li>
+          <li className="list-group-item">✔ Authentication System – Secure login with JWT authentication</li>
+          <li className="list-group-item">✔ API Integrations – Connected third-party services with RESTful APIs</li>
         </ul>
       </div>
 
